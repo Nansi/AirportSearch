@@ -10,6 +10,10 @@ import UIKit
 
 class DetailTableViewCell: UITableViewCell {
 
+     @IBOutlet weak var airportName: UILabel!
+     @IBOutlet weak var runwayLength: UILabel!
+     @IBOutlet weak var city: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

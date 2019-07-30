@@ -3,25 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C662FE391E17731C0357022 /* Pods_NearAirport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4665B88A9ABE385055511A /* Pods_NearAirport.framework */; };
 		92E01CF722F01C8500BBA48A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01CF622F01C8500BBA48A /* AppDelegate.swift */; };
-		92E01CF922F01C8500BBA48A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01CF822F01C8500BBA48A /* ViewController.swift */; };
 		92E01CFC22F01C8500BBA48A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E01CFA22F01C8500BBA48A /* Main.storyboard */; };
 		92E01CFE22F01C8600BBA48A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E01CFD22F01C8600BBA48A /* Assets.xcassets */; };
 		92E01D0122F01C8600BBA48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E01CFF22F01C8600BBA48A /* LaunchScreen.storyboard */; };
+		92E01D2C22F030D000BBA48A /* ServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D2722F030D000BBA48A /* ServiceHandler.swift */; };
+		92E01D2E22F030D000BBA48A /* MakeActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D2922F030D000BBA48A /* MakeActivityIndicator.swift */; };
+		92E01D2F22F030D000BBA48A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D2A22F030D000BBA48A /* Reachability.swift */; };
+		92E01D3622F048E400BBA48A /* AirportConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3422F048E400BBA48A /* AirportConstants.swift */; };
+		92E01D3722F048E400BBA48A /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3522F048E400BBA48A /* AirportData.swift */; };
+		92E01D3922F04C0300BBA48A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3822F04C0300BBA48A /* HomeViewController.swift */; };
+		92E01D3C22F04F9100BBA48A /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3B22F04F9000BBA48A /* ListTableViewCell.swift */; };
+		92E01D3E22F0543A00BBA48A /* NearestAirportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3D22F0543A00BBA48A /* NearestAirportListViewController.swift */; };
+		92E01D4022F0F89C00BBA48A /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E01D3F22F0F89C00BBA48A /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23880732A848E2982134F640 /* Pods-NearAirport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearAirport.release.xcconfig"; path = "Target Support Files/Pods-NearAirport/Pods-NearAirport.release.xcconfig"; sourceTree = "<group>"; };
 		92E01CF322F01C8500BBA48A /* NearAirport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearAirport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E01CF622F01C8500BBA48A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92E01CF822F01C8500BBA48A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		92E01CFB22F01C8500BBA48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92E01CFD22F01C8600BBA48A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E01D0022F01C8600BBA48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92E01D0222F01C8600BBA48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E01D2722F030D000BBA48A /* ServiceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHandler.swift; sourceTree = "<group>"; };
+		92E01D2922F030D000BBA48A /* MakeActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeActivityIndicator.swift; sourceTree = "<group>"; };
+		92E01D2A22F030D000BBA48A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		92E01D3422F048E400BBA48A /* AirportConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportConstants.swift; sourceTree = "<group>"; };
+		92E01D3522F048E400BBA48A /* AirportData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		92E01D3822F04C0300BBA48A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92E01D3B22F04F9000BBA48A /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		92E01D3D22F0543A00BBA48A /* NearestAirportListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestAirportListViewController.swift; sourceTree = "<group>"; };
+		92E01D3F22F0F89C00BBA48A /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		AF4665B88A9ABE385055511A /* Pods_NearAirport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearAirport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16013AA3FA88DD42D3B2A54 /* Pods-NearAirport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearAirport.debug.xcconfig"; path = "Target Support Files/Pods-NearAirport/Pods-NearAirport.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C662FE391E17731C0357022 /* Pods_NearAirport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AAACE5393E801DFB6C13D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4665B88A9ABE385055511A /* Pods_NearAirport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92E01CEA22F01C8500BBA48A = {
 			isa = PBXGroup;
 			children = (
 				92E01CF522F01C8500BBA48A /* NearAirport */,
+				92E01D2522F030D000BBA48A /* SupportFiles */,
 				92E01CF422F01C8500BBA48A /* Products */,
+				973D8C7BBBEAAC93185AD056 /* Pods */,
+				5AAACE5393E801DFB6C13D1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,62 @@
 		92E01CF522F01C8500BBA48A /* NearAirport */ = {
 			isa = PBXGroup;
 			children = (
-				92E01CF622F01C8500BBA48A /* AppDelegate.swift */,
-				92E01CF822F01C8500BBA48A /* ViewController.swift */,
-				92E01CFA22F01C8500BBA48A /* Main.storyboard */,
-				92E01CFD22F01C8600BBA48A /* Assets.xcassets */,
-				92E01CFF22F01C8600BBA48A /* LaunchScreen.storyboard */,
+				92E01D3A22F04F9000BBA48A /* Cell */,
+				92E01D3122F0442D00BBA48A /* Views */,
+				92E01D2622F030D000BBA48A /* Utility */,
 				92E01D0222F01C8600BBA48A /* Info.plist */,
 			);
 			path = NearAirport;
+			sourceTree = "<group>";
+		};
+		92E01D2522F030D000BBA48A /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92E01CF622F01C8500BBA48A /* AppDelegate.swift */,
+				92E01CFD22F01C8600BBA48A /* Assets.xcassets */,
+				92E01CFF22F01C8600BBA48A /* LaunchScreen.storyboard */,
+				92E01CFA22F01C8500BBA48A /* Main.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		92E01D2622F030D000BBA48A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				92E01D3422F048E400BBA48A /* AirportConstants.swift */,
+				92E01D3522F048E400BBA48A /* AirportData.swift */,
+				92E01D2722F030D000BBA48A /* ServiceHandler.swift */,
+				92E01D2922F030D000BBA48A /* MakeActivityIndicator.swift */,
+				92E01D2A22F030D000BBA48A /* Reachability.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		92E01D3122F0442D00BBA48A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92E01D3822F04C0300BBA48A /* HomeViewController.swift */,
+				92E01D3D22F0543A00BBA48A /* NearestAirportListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92E01D3A22F04F9000BBA48A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92E01D3B22F04F9000BBA48A /* ListTableViewCell.swift */,
+				92E01D3F22F0F89C00BBA48A /* DetailTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		973D8C7BBBEAAC93185AD056 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16013AA3FA88DD42D3B2A54 /* Pods-NearAirport.debug.xcconfig */,
+				23880732A848E2982134F640 /* Pods-NearAirport.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92E01D0522F01C8600BBA48A /* Build configuration list for PBXNativeTarget "NearAirport" */;
 			buildPhases = (
+				38BECF21AA3172A515DB5DDF /* [CP] Check Pods Manifest.lock */,
 				92E01CEF22F01C8500BBA48A /* Sources */,
 				92E01CF022F01C8500BBA48A /* Frameworks */,
 				92E01CF122F01C8500BBA48A /* Resources */,
+				836C187A714D9106C92DFFE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +212,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38BECF21AA3172A515DB5DDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearAirport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836C187A714D9106C92DFFE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearAirport/Pods-NearAirport-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearAirport/Pods-NearAirport-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearAirport/Pods-NearAirport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92E01CEF22F01C8500BBA48A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92E01CF922F01C8500BBA48A /* ViewController.swift in Sources */,
+				92E01D3722F048E400BBA48A /* AirportData.swift in Sources */,
+				92E01D3C22F04F9100BBA48A /* ListTableViewCell.swift in Sources */,
+				92E01D3E22F0543A00BBA48A /* NearestAirportListViewController.swift in Sources */,
+				92E01D3622F048E400BBA48A /* AirportConstants.swift in Sources */,
+				92E01D2C22F030D000BBA48A /* ServiceHandler.swift in Sources */,
+				92E01D2F22F030D000BBA48A /* Reachability.swift in Sources */,
 				92E01CF722F01C8500BBA48A /* AppDelegate.swift in Sources */,
+				92E01D3922F04C0300BBA48A /* HomeViewController.swift in Sources */,
+				92E01D4022F0F89C00BBA48A /* DetailTableViewCell.swift in Sources */,
+				92E01D2E22F030D000BBA48A /* MakeActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +412,7 @@
 		};
 		92E01D0622F01C8600BBA48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16013AA3FA88DD42D3B2A54 /* Pods-NearAirport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +431,7 @@
 		};
 		92E01D0722F01C8600BBA48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23880732A848E2982134F640 /* Pods-NearAirport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
